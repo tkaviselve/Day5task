@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavi's web page</title>
+</head>
+<h1>Title Caps</h1>
+<body>
+    <script>
+          (function titlecaps(...a)
+    {
+            console.log(a);
+            for(i=0;i<a.length;i++)
+            {
+            let b=a[i].split("");
+            b[0]=b[0].toUpperCase();
+            console.log(b.join(""))
+            }
+    })("aaa","bbb","ccc");
+    </script>
+</body>
+</html>
